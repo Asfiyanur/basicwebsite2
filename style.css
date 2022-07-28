@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./img/bg.jpg);
+    background-size:cover ;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    border-bottom: 2px solid rgba(255,255 , 255, 0.1);
+    
+}
+
+/* container start */
+
+.container .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+
+.container .navbar .logo a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+    
+
+}
+
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar ul li a:hover{
+    color: #0ba2c0;
+    transition: color .25s ease;
+
+
+}
+
+.navbar .menu{
+    display: flex;
+    align-items: center;
+    column-gap: ;
+}
+
+
+
+.navbar .menu .menubutton{
+    color: #0ba2c0;
+    text-decoration: none;
+    background-color: rgba(255,255 , 255, 0.12);
+    padding: 12px 24px;
+    border-radius: 56px;
+}
+
+.navbar .menu .menubutton:hover{
+    background-color: #0ba2c0;
+    color: white;
+    transition: all .25s ease;
+}
+
+
+
+
+
+/* !container end! */
+
+/* main start */
+
+.main{
+    
+        width: 80%;
+        margin: auto;
+}
+
+.ext{
+    color: white;
+    height: calc(100vh - 100px);
+    padding-top:150px ;
+}
+
+.ext h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.ext p{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 32px;
+
+}
+
+.ext .links{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    column-gap: 16px;
+}
+
+.ext .links a{
+    background-color: white;
+    padding: 20px;
+    width: 280px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all .25s ease;
+}
+.ext .links a:hover{
+    background-color: #0ba2c0;
+    color: white;
+}
+
+
+
+
+/* main end */
+
